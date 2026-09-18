@@ -15,3 +15,7 @@ npm i
 npm test          # ตรรกะ merge/sync (ไม่ต้องใช้เบราว์เซอร์)
 npm run test:browser   # โหลดหน้าจริงใน headless Chrome
 ```
+
+## Firestore rules
+
+กฎอยู่รีโป [trading-journal](https://github.com/ironmantrader/trading-journal) ที่เดียว เพราะสองแอพใช้ Firebase project เดียวกัน (`ironman-trading`) และการ deploy กฎคือการเขียนทับทั้งไฟล์ — deploy จากที่นี่จะทำให้กฎของอีกแอพหายไปเงียบ ๆ
